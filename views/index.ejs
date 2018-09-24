@@ -11,10 +11,6 @@
 
       <div class="container-fluid">
 
-        <h2>Button</h2>
-        <p> .btn 类是按钮的基本样式:</p>
-        <button type="button" class="btn btn-info">上传文件</button>
-
         <div class="row">
           <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
             <ul class="nav nav-pills flex-column">
@@ -63,6 +59,19 @@
 
 
     <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
+      <h2>Button</h2>
+      <p> .btn 类是按钮的基本样式:</p>
+      <button type="button" class="btn btn-info">上传文件</button>
+
+      <br>
+      <br>
+      <br>
+
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="logo">
+            <button type="submit" class="btn btn-info">上传文件</button>
+        </form>
+
       <h1>Dashboard</h1>
 
       <section class="row text-center placeholders">
